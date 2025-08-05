@@ -27,8 +27,12 @@ export default function CatalogoPageScreen({ products }) {
           <Image source={{ uri: item.thumbnail }} style={styles.thumbnail} />
         </TouchableOpacity>
 
+        <View style={styles.borderImage} />
+
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.description}>{item.description}</Text>
+
+
 
         {temDesconto ? (
           <View style={styles.priceContainer}>
@@ -49,6 +53,7 @@ export default function CatalogoPageScreen({ products }) {
         keyExtractor={(item) => item.id.toString()}
         renderItem={renderItem}
         contentContainerStyle={styles.listContainer}
+        numColumns={2}
       />
     </View>
   );
