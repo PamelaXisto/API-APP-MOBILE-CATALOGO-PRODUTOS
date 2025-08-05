@@ -15,8 +15,8 @@ Aplicativo desenvolvido em **React Native com Expo**, que consome dados de uma *
 ![Tela de autenticacao](assets/prints-readme/login-invalido.png)
 
 **Catálogo de Produtos Masculino e Feminino**  
-![Tela de catalogo masculino](assets/prints-readme/catalogo-produtos-masculino.png)
-![Tela de catalogo feminino](assets/prints-readme/catalogo-produtos-feminino.png)
+![Tela de catalogo masculino](assets/prints-readme/catalogo-produtos-masculinos.png)
+![Tela de catalogo feminino](assets/prints-readme/catalogo-produtos-femininos.png)
 
 **Tela de Configurações**  
 ![Tela de configuracao](assets/prints-readme/configuracao-perfil.png)
