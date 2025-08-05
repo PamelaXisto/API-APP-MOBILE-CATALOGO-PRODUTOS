@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# 🛍️ Catálogo de Produtos – App Mobile com React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo desenvolvido em **React Native com Expo**, que consome dados de uma **API externa** para exibir produtos. O projeto utiliza **Redux Toolkit** para gerenciamento de estado global e **Axios** para as requisições HTTP. O foco principal é oferecer uma experiência rápida, intuitiva e funcional ao usuário.
+(Projeto Acadêmico)
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Prints das Telas
 
-   ```bash
-   npm install
-   ```
+**Tela de Login**  
+![Tela de login](assets/prints-readme/login.png)
 
-2. Start the app
+**Tela de Login com Validação e Autenticação**
+![Tela de validacao](assets/prints-readme/login-vazio.png)
+![Tela de autenticacao](assets/prints-readme/login-invalido.png)
 
-   ```bash
-   npx expo start
-   ```
+**Catálogo de Produtos Masculino e Feminino**  
+![Tela de catalogo masculino](assets/prints-readme/catalogo-produtos-masculino.png)
+![Tela de catalogo feminino](assets/prints-readme/catalogo-produtos-feminino.png)
 
-In the output, you'll find options to open the app in a
+**Tela de Configurações**  
+![Tela de configuracao](assets/prints-readme/configuracao-perfil.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Modal de Confirmação**  
+![Tela de configuracao confirmacao](assets/prints-readme/config-confirmacao.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Funcionalidades
 
-When you're ready, run:
+- Login com validação de campos
+- Consumo de API externa para exibir lista de produtos
+- Gerenciamento de estado com Redux Toolkit
+- Tela de configurações com dados do perfil
+- Modal de confirmação ao clicar em "Sair"
+- Logout com redirecionamento seguro
+- Interface responsiva e otimizada para dispositivos móveis
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Axios](https://axios-http.com/)
+- [React Navigation](https://reactnavigation.org/)
+- [Expo Router](https://expo.dev/router)
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+### ✅ Pré-requisitos
+
+- axios
+- @react-navigation/native
+- @reduxjs/toolkit
+- react-redux
+- expo-router
+
 
 ```bash
-npm run reset-project
-```
+npm install axios
+npm install @react-navigation/native
+npm install @reduxjs/toolkit react-redux
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
