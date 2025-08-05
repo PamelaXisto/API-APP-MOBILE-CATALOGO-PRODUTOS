@@ -8,21 +8,21 @@ Aplicativo desenvolvido em **React Native com Expo**, que consome dados de uma *
 ## 📱 Prints das Telas
 
 **Tela de Login**  
-![Tela de login](assets/prints-readme/login.png)
+![Tela de login](src/assets/prints-readme/login.png)
 
 **Tela de Login com Validação e Autenticação**
-![Tela de validacao](assets/prints-readme/login-vazio.png)
-![Tela de autenticacao](assets/prints-readme/login-invalido.png)
+![Tela de validacao](src/assets/prints-readme/login-vazio.png)
+![Tela de autenticacao](src/assets/prints-readme/login-invalido.png)
 
 **Catálogo de Produtos Masculino e Feminino**  
-![Tela de catalogo masculino](assets/prints-readme/catalogo-produtos-masculinos.png)
-![Tela de catalogo feminino](assets/prints-readme/catalogo-produtos-femininos.png)
+![Tela de catalogo masculino](src/assets/prints-readme/catalogo-produtos-masculinos.png)
+![Tela de catalogo feminino](src/assets/prints-readme/catalogo-produtos-femininos.png)
 
 **Tela de Configurações**  
-![Tela de configuracao](assets/prints-readme/configuracao-perfil.png)
+![Tela de configuracao](src/assets/prints-readme/configuracao-perfil.png)
 
 **Modal de Confirmação**  
-![Tela de configuracao confirmacao](assets/prints-readme/config-confirmacao.png)
+![Tela de configuracao confirmacao](src/assets/prints-readme/config-confirmacao.png)
 
 ---
 
